@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  
 }
 
 
@@ -15,7 +16,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 0.5fr 5fr 0.01fr;    
+    grid-template-rows: 0.5fr 6fr 0.5fr;    
     grid-template-areas: 
     "header header  "
     "main main "
@@ -52,6 +53,7 @@ main{
     width: 100vw;
     box-sizing: content-box;
     grid-area: main;
+  
 
     /* background-color: gray; */
     display: grid;
@@ -64,7 +66,7 @@ main{
     column-gap: 2px;
 }
 #card_main_izquierda {
-    height: 70vh;  
+    height: 85vh;  
     width: 50vw;
     grid-area: card_main_izquierda;
     display: flex;
@@ -75,7 +77,7 @@ main{
     
            
 }
-.fondos{
+/* .fondos{
     background: 
     url(../assets/images/perrito001.png) left ,
     url(../assets/images/madera.png) ,
@@ -84,7 +86,7 @@ main{
     
     
     
-    }
+    } */
 
 /* #mein_separador_izquierda{
     height: 80vh;
@@ -128,7 +130,7 @@ main{
 
 } */
 #card_main_derecha{
-    height: 70vh;
+    height: 85vh;
     width: 50vw;
     grid-area: card_main_derecha;
     display: flex;
@@ -143,7 +145,7 @@ main{
 footer{
     /* object-position: fixed; */
 
-    height: 10vh;
+    height: 5vh;
     grid-area: footer;
     /* background-color: rgb(27, 3, 8); */
     display: flex;
@@ -212,4 +214,10 @@ ul li {
     
     width: 6vw;
     /* left: 89vw; */
+}
+
+
+#bg-light {
+    
+    background-color: none !important;
 }
