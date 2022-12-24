@@ -1,7 +1,7 @@
 *{
-    padding: 0;
-    margin: 0;
-    /* box-sizing: border-box; */
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
   
 }
 
@@ -10,13 +10,6 @@
 
 
 
-.ajust_img{
-    width: 100%;
-    height: auto;
-    
-       
-    
-}
 
 
 #header{
@@ -27,8 +20,8 @@
     
 
 #main{
-    height: 85vh;
-    /* width: auto; */
+    /* height: 85vh; */
+    width: 100vw;
 
     
 }
@@ -36,36 +29,6 @@
     height: 40vh;
 
 }
-
-
-
-#card_main_izquierda {
-    /* height: 85vh;   */
-    /* width: 50vw; */
-
-    
-    border: 0.1px solid black;
-    /* background-color: rgb(13, 12, 14); */
-    
-           
-}
-/* .fondos{
-    background: 
-    url(../assets/images/perrito001.png) left ,
-    url(../assets/images/madera.png) ,
-    url(../assets/images/gatito002.png);  
-     
-    
-    
-    
-    } */
-
-
-
-/* .madera{
-    width: 100vw;
-    height: 10vh;
-} */
 
 
 
@@ -77,7 +40,7 @@
     border: 0.1px solid black;
 }
 
-footer{
+#footer{
     
     height: 5vh;
     width: auto
@@ -85,65 +48,9 @@ footer{
     
 
 }
-/* a{border: 1px solid black;} */
 
-/* ul li a{
-    display: inline-block;
-    width: 8vw;
-    height: 5vh;
-    border: solid 1px black;
-    font-size: 10px;
-    color: black;
-    text-decoration: none;
-    /* position: absolute; */
-    /* top: 3vh; */
-    
-/* } */
 
-ul li {
-    display: inline;
-    
-}
-#logo_footer{
-    width: 8vw;
-    /* left: 2vw; */
-
-}
-#youtube_footer{
-    width: 6vw;
-    /* left: 27vw; */
-}
-#linkeding_footer{
-     width: 6vw;
-    /* left: 37vw; */
-}
-#instagram_footer{
-     width: 6vw;
-    /* left: 47vw; */
-}
-#facebook_footer{
-     width: 6vw;
-    /* left: 57vw; */
-}
-#twitter_footer{
-     width: 6vw;
-    /* left: 67vw; */
-}
-#categoria_uno_footer{
-    width: 6vw;
-    /* left: 75vw; */
-
-}
-#categoria_dos_footer{
-    width: 6vw;
-    /* left: 82vw; */
-}
-#categoria_tres_footer{
-    
-    width: 6vw;
-    /* left: 89vw; */
-}
-
+u
 
 #bg-light {
     
@@ -152,14 +59,50 @@ ul li {
 
 
 
-/* estios bordes */
+
 
 .with-border {
  
-    border-image: radial-gradient(rgb(0, 143, 104), rgb(250, 224, 6)) 6;
+    
     border-style: solid;
-    border-width: 10px;
-
+    border-width: 5px;
+    border-image: conic-gradient(red, yellow, lime,aqua, blue, magenta, red) 6;
+    padding: 0%;
+    
 
 
 }
+    
+#particles-js{
+    background-color: rgb(221, 221, 159);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+} 
+
+
+
+
+ 
+   .espejo :hover{ 
+    
+
+
+     transform: rotateY(180deg) ;
+     
+    transition-duration: 3s;
+    transition-delay: 1s;
+     
+    }
+
+    .offcanvas {
+     
+        background-color: #723f53 !important ;
+    }
+     
+        
+
+
