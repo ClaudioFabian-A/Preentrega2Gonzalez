@@ -106,3 +106,15 @@ u
         
 
 
+    @media (max-width: 576px) { 
+
+   #footer{
+       display: none;
+}
+        
+    }
+    /* @include media-breakpoint-up(md) { }
+    @include media-breakpoint-up(lg) { }
+    @include media-breakpoint-up(xl) { }
+    @include media-breakpoint-up(xxl) { } */
+    
